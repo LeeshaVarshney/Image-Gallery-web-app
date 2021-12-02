@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
   },
   headerText: {
     flex: 1,
-    color: 'white',
-    fontSize: 32,
+    color: 'green',
+    fontSize: 34,
     textAlign: 'center',
     textAlignVertical: 'center',
     // borderWidth: 1,
