@@ -18,7 +18,7 @@ const CollectionImages = ({ navigation, route }) => {
 
 
   const isCloseToBottom = ({layoutMeasurement, contentOffset, contentSize}) => {
-  const paddingToBottom = 20;
+  const paddingToBottom = 40;
   return layoutMeasurement.height + contentOffset.y >=
     contentSize.height - paddingToBottom;
   };
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   headerText: {
     flex: 1,
     color: 'white',
-    fontSize: 32,
+    fontSize: 34,
     textAlign: 'center',
     textAlignVertical: 'center',
     // borderWidth: 1,
